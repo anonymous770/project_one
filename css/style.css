@@ -346,3 +346,76 @@ nav ul li a{
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
+/* ################### contact form ################## */
+.contact{
+  margin-top: 4rem;
+  /* border: 2px solid black; */
+  /* background: black; */
+}
+.company{
+  /* border: 2px solid red; */
+  float: left;
+  width: 49%;
+  background: white;
+}
+.form{
+  /* height: 100px; */
+  /* border: 2px solid green; */
+  float: right;
+  width: 49%;
+  background: white;
+  padding: 1rem;
+}
+/* .address{
+  height: 100px;
+} */
+.contact::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.t{
+  background:#f7f7f7;
+}
+.address h2, i{
+  
+  display: inline-block;
+  margin-right: 0.3rem;
+  text-transform: uppercase;
+  padding: 0.7rem;
+}
+
+.com-img {
+  max-width: 100%;
+  min-height: 4rem;
+  object-fit: cover;
+  object-position: right;
+}
+/* ######### form #######*/
+.f-hd{
+  border-bottom:3px solid red;
+}
+.input{
+  display: block;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.input::after{
+  content: '*';
+  
+}
+.f-btn{
+  display: block;
+  margin: 0 auto;
+  padding: 0.4em 4em;
+  text-transform: uppercase;
+  background: red;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: none;
+  margin-top: 0.4rem;
+}
+.contact-footer{
+  margin-top: 0.7rem;
+}
